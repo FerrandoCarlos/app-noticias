@@ -23,7 +23,7 @@ Aplicación web CRUD desarrollada con Node.js y PostgreSQL.
 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TuUsuario/portal-noticias.git
+git clone https://github.com/FerrandoCarlos/app-noticias.git
 cd portal-noticias
 ```
 
@@ -68,3 +68,12 @@ npm run dev
 ├── app.js
 └── package.json
 ```
+
+## 🔗 Rutas
+
+| Método | Ruta               | Descripción              |
+| ------ | ------------------ | ------------------------ |
+| GET    | /noticias          | Lista todas las noticias |
+| GET    | /noticias/insertar | Formulario para agregar  |
+| POST   | /noticias/agregar  | Guarda una nueva noticia |
+| POST   | /noticias/borrar   | Elimina una noticia      |
