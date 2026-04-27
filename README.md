@@ -77,3 +77,23 @@ npm run dev
 | GET    | /noticias/insertar | Formulario para agregar  |
 | POST   | /noticias/agregar  | Guarda una nueva noticia |
 | POST   | /noticias/borrar   | Elimina una noticia      |
+
+## 🗄 Base de datos
+
+### Tabla `categorias`
+
+| Campo  | Tipo        | Descripción            |
+| ------ | ----------- | ---------------------- |
+| id     | SERIAL      | Clave primaria         |
+| nombre | VARCHAR(50) | Nombre de la categoría |
+
+### Tabla `noticias`
+
+| Campo        | Tipo         | Descripción             |
+| ------------ | ------------ | ----------------------- |
+| id           | SERIAL       | Clave primaria          |
+| titulo       | VARCHAR(150) | Título de la noticia    |
+| descripcion  | TEXT         | Contenido de la noticia |
+| categoria_id | INTEGER      | Referencia a categorias |
+| fecha        | DATE         | Fecha de publicación    |
+| url_imagen   | TEXT         | URL de la imagen        |
