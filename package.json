@@ -1,0 +1,30 @@
+{
+	"name": "app-noticias",
+	"version": "1.0.0",
+	"description": "Aplicación web CRUD desarrollada con Node.js y PostgreSQL.",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "node --watch app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FerrandoCarlos/app-noticias.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/FerrandoCarlos/app-noticias/issues"
+	},
+	"homepage": "https://github.com/FerrandoCarlos/app-noticias#readme",
+	"dependencies": {
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"pg": "^8.20.0",
+		"pug": "^3.0.4",
+		"zod": "^4.3.6"
+	}
+}
