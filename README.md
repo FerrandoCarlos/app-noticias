@@ -49,3 +49,22 @@ npm run dev
 
 5. Abrir en el navegador
    - http://localhost:3000
+
+## 📁 Estructura del proyecto
+
+```
+📁 portal-noticias/
+├── 📁 controllers/
+├── 📁 db/
+├── 📁 models/
+├── 📁 public/
+│   ├── 📁 css/
+│   └── 📁 js/
+├── 📁 router/
+├── 📁 schemas/
+├── 📁 views/
+├── .env
+├── .gitignore
+├── app.js
+└── package.json
+```
