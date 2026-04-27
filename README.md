@@ -97,3 +97,11 @@ npm run dev
 | categoria_id | INTEGER      | Referencia a categorias |
 | fecha        | DATE         | Fecha de publicación    |
 | url_imagen   | TEXT         | URL de la imagen        |
+
+## 👨‍💻 Autor
+
+**MiloDev**
+
+## 📄 Licencia
+
+MIT
